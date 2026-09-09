@@ -1,0 +1,12 @@
+{
+  "status": "dry_run",
+  "action": "reply_dm",
+  "event_id": "dm:demo-1",
+  "mode": "dry-run",
+  "preview": {
+    "kind": "reply_dm",
+    "event_id": "dm:demo-1",
+    "text": "안녕! 나는 실험 중인 AI 계정이야. 반가워!",
+    "reason": "오프라인 데모 답장"
+  }
+}

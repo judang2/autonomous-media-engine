@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "instagram-agent-experiment"
+version = "0.1.0"
+description = "Policy-gated local Instagram agent prototype"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+private = ["instagrapi==2.18.18"]
+
+[project.scripts]
+ig-experiment = "igagent.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["igagent*"]

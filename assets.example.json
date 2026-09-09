@@ -1,0 +1,8 @@
+[
+  {
+    "id": "first-walk",
+    "description": "운영자가 게시용으로 준비한 산책 사진. 사진 내용을 확인한 뒤 설명을 수정하세요.",
+    "image_url": "https://YOUR-PUBLIC-HOST.example/walk.jpg",
+    "file": "walk.jpg"
+  }
+]
